@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.castellane">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:launchMode="singleTop"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".MenuUtilisateur" ></activity>
+        <activity android:name=".MenuMoniteur" ></activity>
+        <activity android:name=".MenuAdministrateur" ></activity>
+        <activity android:name=".ViewAdminAdminList" ></activity>
+        <activity android:name=".ViewAdminMonitorList" ></activity>
+        <activity android:name=".ViewAdminUserList" ></activity>
+        <activity android:name=".ViewShops1"></activity>
+        <activity android:name=".ViewShops2"></activity>
+        <activity android:name=".ViewShops3"></activity>
+        <activity android:name=".ShopMenu"></activity>
+        <activity android:name=".ViewAdminSeances"></activity>
+        <activity android:name=".ViewMonitorSeances"></activity>
+        <activity android:name=".ViewUserSeances"></activity>
+        <activity android:name=".ViewAdminAnnonces"></activity>
+        <activity android:name=".AddAnnonce"></activity>
+        <activity android:name=".ModifyAnnonces"></activity>
+        <activity android:name=".AddSeances"></activity>
+        <activity android:name=".ModifySeances"></activity>
+        <activity android:name=".AddVehicles"></activity>
+        <activity android:name=".AddMonitorVehicles"></activity>
+        <activity android:name=".ModifyVehicles"></activity>
+        <activity android:name=".ModifyMonitorVehicles"></activity>
+        <activity android:name=".ChangeUserRight"></activity>
+        <activity android:name=".ViewAdminUsersMenu"></activity>
+        <activity android:name=".ViewAdminVehicles"></activity>
+        <activity android:name=".ViewMonitorVehicles"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

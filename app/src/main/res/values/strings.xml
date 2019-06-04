@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Castellane</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="register_title">Inscription</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="password">Mot de passe</string>
+    <string name="password2">Confirmer votre Mot de passe</string>
+    <string name="adresse">Adresse</string>
+    <string name="codepostal">Code postal</string>
+    <string name="ville">Ville</string>
+    <string name="pays">Pays</string>
+    <string name="telephone">Numéro de téléphone</string>
+    <string name="email">jean@jean.com</string>
+    <string name="question">Sélectrionner une Question</string>
+    <string name="reponse">Réponse</string>
+    <string name="suivant1">Suivant</string>
+    <string name="back">Retour</string>
+
+</resources>
